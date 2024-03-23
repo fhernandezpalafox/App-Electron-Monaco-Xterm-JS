@@ -1,0 +1,23 @@
+{
+  "name": "app-electron-monaco-xterm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.1"
+  },
+  "dependencies": {
+    "@xterm/xterm": "^5.4.0",
+    "monaco-editor": "^0.47.0",
+    "xterm": "^5.3.0",
+    "xterm-addon-fit": "^0.8.0",
+    "xterm-addon-search": "^0.13.0",
+    "xterm-addon-web-links": "^0.9.0"
+  }
+}
